@@ -115,7 +115,6 @@ setInterval(createParticle, 3000);
 // Gestione click sui video (placeholder)
 document.querySelectorAll('.video-card').forEach(card => {
     card.addEventListener('click', () => {
-        // Sostituisci con il link reale del video YouTube
         window.open('https://www.youtube.com/watch?v=Ku6j9PU_kAY&t=107s', '_blank');
     });
 });
