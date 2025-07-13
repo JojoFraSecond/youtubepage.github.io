@@ -136,7 +136,8 @@ document.querySelectorAll('.social-link').forEach(link => {
             'instagram': 'https://www.instagram.com/joaquim.francalanci/',
             'kaggle': 'https://www.kaggle.com/joaquimfrancalanci',
             'github': 'https://github.com/J0joFra',
-            'linkedin': 'https://www.linkedin.com/in/joaquim-francalanci/'
+            'linkedin': 'https://www.linkedin.com/in/joaquim-francalanci/',
+            'discord': 'https://discord.gg/dDD6JwbXEg'
         };
         
         if (socialLinks[platform]) {
