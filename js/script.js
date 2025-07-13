@@ -116,7 +116,7 @@ setInterval(createParticle, 3000);
 document.querySelectorAll('.video-card').forEach(card => {
     card.addEventListener('click', () => {
         // Sostituisci con il link reale del video YouTube
-        window.open('https://youtube.com/watch?v=EXAMPLE', '_blank');
+        window.open('https://www.youtube.com/watch?v=Ku6j9PU_kAY&t=107s', '_blank');
     });
 });
 
@@ -132,13 +132,12 @@ document.querySelectorAll('.social-link').forEach(link => {
         e.preventDefault();
         const platform = link.getAttribute('title').toLowerCase();
         
-        // Sostituisci con i tuoi link reali
         const socialLinks = {
-            'youtube': 'https://youtube.com/@tuocanale',
-            'instagram': 'https://instagram.com/tuoprofilo',
-            'twitter': 'https://twitter.com/tuoprofilo',
-            'tiktok': 'https://tiktok.com/@tuoprofilo',
-            'discord': 'https://discord.gg/tuoserver'
+            'youtube': 'https://www.youtube.com/@jofrancalanci',
+            'instagram': 'https://www.instagram.com/joaquim.francalanci/',
+            'kaggle': 'https://www.kaggle.com/joaquimfrancalanci',
+            'github': 'https://github.com/J0joFra',
+            'linkedin': 'https://www.linkedin.com/in/joaquim-francalanci/'
         };
         
         if (socialLinks[platform]) {
